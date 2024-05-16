@@ -83,3 +83,5 @@ class TestWebApp(unittest.TestCase):
     def test_xss_vulnerability(self):
         # TODO: Can we store javascript tags in the username field?
         assert False
+
+    print('heowdy yall')
